@@ -19,6 +19,6 @@ const countdown = setInterval(function(){
 
     if (difference < 0){
         clearInterval(countdown);
-        document.getElementById("#title").innerHTML = "Vacation is here!";
+        document.getElementById("#title").innerHTML = "Have an Amazing Vacation!";
     }
 },1000)
